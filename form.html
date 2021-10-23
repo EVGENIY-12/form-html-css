@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/form.css">
 </head>
 <body>
 <form class="form">
     <div class="form-field">
         <label for="name">ИМЯ</label>
-        <input type="text" name="name" id="name" placeholder="Иван Иваныч" class="form-input" minlength="3">
+        <input type="text" name="name" id="name" placeholder="Иван Иваныч" class="form-input" minlength="3" required>
     </div>
     <div class="form-field">
         <label for="tel">Телефон</label>
-        <input type="tel" name="tel" id="tel" class="form-input" placeholder="+38099 111 11 11">
+        <input type="tel" name="tel" id="tel" class="form-input" placeholder="+38099 111 11 11" required>
     </div>
     <div class="form-field">
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" class="form-input" placeholder="test@mail.com">
+        <input type="email" name="email" id="email" class="form-input" placeholder="test@mail.com" required>
     </div>
-
+</form>
 </body>
 </html>
